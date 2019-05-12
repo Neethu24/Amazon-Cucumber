@@ -31,7 +31,7 @@ public class LoginSteps extends BaseClass {
 
 	@When("User has to type valid password and login")
 	public void user_has_to_type_valid_password_and_login() {
-		enterText(lp.getTxtPassword(), "**********");
+		enterText(lp.getTxtPassword(), "anb@ismylifE24");
 		btnClick(lp.getBtnSubmit());
 	}
 

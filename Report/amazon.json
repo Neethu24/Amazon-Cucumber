@@ -1,0 +1,118 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4278391323,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.launchBrowswer()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login Page",
+        "description": "",
+        "id": "amazon-product-search-and-select-feature;login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7294022683,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has to be in login page",
+            "match": {
+              "location": "LoginSteps.user_has_to_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1906658430,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has to type valid user name and continue",
+            "match": {
+              "location": "LoginSteps.user_has_to_type_valid_user_name_and_continue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4029098977,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has to type valid password and login",
+            "match": {
+              "location": "LoginSteps.user_has_to_type_valid_password_and_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47319045,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be redirected to Amazon HomePage",
+            "match": {
+              "location": "LoginSteps.user_should_be_redirected_to_Amazon_HomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3438645178,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Searches for product and number of product matched",
+            "match": {
+              "location": "LoginSteps.user_Searches_for_product_and_number_of_product_matched()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3514796656,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User select product with least price",
+            "match": {
+              "location": "LoginSteps.user_select_product_with_least_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 827970529,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Add to cart and take snapshot",
+            "match": {
+              "location": "LoginSteps.add_to_cart_and_take_snapshot()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon product search and select feature",
+    "description": "",
+    "id": "amazon-product-search-and-select-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
